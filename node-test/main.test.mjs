@@ -1,5 +1,5 @@
-describe("@esm-bundle/autopublish-template", () => {
+describe("@esm-bundle/chai", () => {
   it("can load the esm bundle without dying", () => {
-    return import("../esm/index.js");
+    return import("../esm/chai.js");
   });
 });
