@@ -36,8 +36,8 @@
   },
   "homepage": "https://github.com/esm-bundle/chai#readme",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^9.0.0",
-    "chai": "^4.2.0",
+    "@rollup/plugin-node-resolve": "9.0.0",
+    "chai": "4.2.0",
     "esm-bundle-scripts": "1.2.0"
   },
   "publishConfig": {
