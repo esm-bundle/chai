@@ -1,9 +1,9 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
+  "name": "@esm-bundle/chai",
+  "version": "0.0.0-unpublished.0",
+  "description": "BDD/TDD assertion library for node.js and the browser. Test framework agnostic.",
+  "main": "chai.js",
+  "module": "esm/chai.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
@@ -27,16 +27,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/chai.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/chai/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/chai#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "chai": "^4.2.0",
     "esm-bundle-scripts": "1.2.0"
   },
   "publishConfig": {
