@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/chai",
-  "version": "0.0.0-unpublished.0",
+  "version": "4.2.0",
   "description": "BDD/TDD assertion library for node.js and the browser. Test framework agnostic.",
   "main": "chai.js",
   "module": "esm/chai.js",
