@@ -5,6 +5,7 @@
   "main": "chai.js",
   "module": "esm/chai.js",
   "type": "module",
+  "types": "chai.d.ts",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
@@ -23,7 +24,8 @@
   },
   "files": [
     "esm",
-    "system"
+    "system",
+    "chai.d.ts"
   ],
   "repository": {
     "type": "git",
@@ -43,5 +45,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.12"
   }
 }
