@@ -11,3 +11,4 @@ system/
 .kodiak.toml
 karma.conf.cjs
 .nvmrc
+.husky/
