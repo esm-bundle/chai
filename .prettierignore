@@ -1,6 +1,8 @@
 .prettierignore
 .gitignore
 LICENSE
+.github/
+pnpm-lock.yaml
 yarn.lock
 yarn-error.log
 esm/
