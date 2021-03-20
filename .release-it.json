@@ -4,5 +4,8 @@
   },
   "plugins": {
     "release-it-plugin-esm-bundle": {}
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
