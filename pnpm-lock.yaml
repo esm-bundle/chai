@@ -2,7 +2,7 @@ dependencies:
   '@types/chai': 4.2.15
 devDependencies:
   '@rollup/plugin-commonjs': 15.1.0_rollup@2.42.4
-  '@rollup/plugin-node-resolve': 11.1.1_rollup@2.42.4
+  '@rollup/plugin-node-resolve': 11.2.1_rollup@2.42.4
   chai: 4.3.4
   concurrently: 6.0.0
   husky: 5.2.0
@@ -192,7 +192,7 @@ packages:
       rollup: ^2.22.0
     resolution:
       integrity: sha512-xCQqz4z/o0h2syQ7d9LskIMvBSH4PX5PjYdpSSvgS+pQik3WahkQVNWg3D8XJeYjZoVWnIUQYDghuEMRGrmQYQ==
-  /@rollup/plugin-node-resolve/11.1.1_rollup@2.42.4:
+  /@rollup/plugin-node-resolve/11.2.1_rollup@2.42.4:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.42.4
       '@types/resolve': 1.17.1
@@ -207,7 +207,7 @@ packages:
     peerDependencies:
       rollup: ^1.20.0||^2.0.0
     resolution:
-      integrity: sha512-zlBXR4eRS+2m79TsUZWhsd0slrHUYdRx4JF+aVQm+MI0wsKdlpC2vlDVjmlGvtZY1vsefOT9w3JxvmWSBei+Lg==
+      integrity: sha512-yc2n43jcqVyGE2sqV5/YCmocy9ArjVAP/BeXyTtADTBBX6V0e5UMqwO8CdQ0kzjb6zu5P1qMzsScCMRvE9OlVg==
   /@rollup/pluginutils/3.1.0_rollup@2.42.4:
     dependencies:
       '@types/estree': 0.0.39
@@ -3388,7 +3388,7 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
   '@rollup/plugin-commonjs': 15.1.0
-  '@rollup/plugin-node-resolve': 11.1.1
+  '@rollup/plugin-node-resolve': 11.2.1
   '@types/chai': ^4.2.12
   chai: 4.3.4
   concurrently: 6.0.0
