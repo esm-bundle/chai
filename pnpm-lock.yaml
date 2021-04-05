@@ -4,7 +4,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 18.0.0_rollup@2.44.0
   '@rollup/plugin-node-resolve': 11.2.1_rollup@2.44.0
   chai: 4.3.4
-  concurrently: 6.0.0
+  concurrently: 6.0.1
   husky: 6.0.0
   karma: 6.3.2
   karma-firefox-launcher: 2.1.0
@@ -761,7 +761,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
-  /concurrently/6.0.0:
+  /concurrently/6.0.1:
     dependencies:
       chalk: 4.1.0
       date-fns: 2.17.0
@@ -777,7 +777,7 @@ packages:
       node: '>=10.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-Ik9Igqnef2ONLjN2o/OVx1Ow5tymVvvEwQeYCQdD/oV+CN9oWhxLk7ibcBdOtv0UzBqHCEKRwbKceYoTK8t3fQ==
+      integrity: sha512-YCF/Wf31a910hXu7eGN9/SyHKD/usw3Shw4IPYuqIsxxC39v92engYlIlOs/zXnBJtX/6aVuhgzfhZeGJkhU4w==
   /configstore/5.0.1:
     dependencies:
       dot-prop: 5.3.0
@@ -3341,12 +3341,6 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-WOkpgNhPTlE73h4VFAFsOnomJVaovO8VqLDzy5saChRBFQFBoMYirowyW+Q9HB4HFF4Z7VZTiG3iSzJJA29yRA==
-  /yargs-parser/20.2.6:
-    dev: true
-    engines:
-      node: '>=10'
-    resolution:
-      integrity: sha512-AP1+fQIWSM/sMiET8fyayjx/J+JmTPt2Mr0FkrgqB4todtfa53sOsrSAcIrJRD5XS20bKUwaDIuMkWKCEiQLKA==
   /yargs-parser/20.2.7:
     dev: true
     engines:
@@ -3372,7 +3366,7 @@ packages:
       require-directory: 2.1.1
       string-width: 4.2.1
       y18n: 5.0.5
-      yargs-parser: 20.2.6
+      yargs-parser: 20.2.7
     dev: true
     engines:
       node: '>=10'
@@ -3389,7 +3383,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 11.2.1
   '@types/chai': ^4.2.12
   chai: 4.3.4
-  concurrently: 6.0.0
+  concurrently: 6.0.1
   husky: 6.0.0
   karma: 6.3.2
   karma-firefox-launcher: 2.1.0
