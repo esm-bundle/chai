@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@rollup/plugin-commonjs': 22.0.0
-  '@rollup/plugin-node-resolve': 13.2.2
+  '@rollup/plugin-node-resolve': 13.3.0
   '@types/chai': ^4.2.12
   chai: 4.3.4
   concurrently: 7.1.0
@@ -24,7 +24,7 @@ dependencies:
 
 devDependencies:
   '@rollup/plugin-commonjs': 22.0.0_rollup@2.71.1
-  '@rollup/plugin-node-resolve': 13.2.2_rollup@2.71.1
+  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.71.1
   chai: 4.3.4
   concurrently: 7.1.0
   husky: 7.0.4
@@ -205,16 +205,16 @@ packages:
       rollup: 2.71.1
     dev: true
 
-  /@rollup/plugin-node-resolve/13.2.2_rollup@2.71.1:
-    resolution: {integrity: sha512-wDSkyBoP5vkkwIYDFQl40gQRUcaAiwoi+L6Jyc6xdV+GDyWUt4TXb/dUYLozTm4rHgwbQA5oOEVQUyVq8JKr1Q==}
+  /@rollup/plugin-node-resolve/13.3.0_rollup@2.71.1:
+    resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.71.1
       '@types/resolve': 1.17.1
-      builtin-modules: 3.2.0
       deepmerge: 4.2.2
+      is-builtin-module: 3.1.0
       is-module: 1.0.0
       resolve: 1.20.0
       rollup: 2.71.1
@@ -1864,6 +1864,13 @@ packages:
     dependencies:
       call-bind: 1.0.2
       has-tostringtag: 1.0.0
+    dev: true
+
+  /is-builtin-module/3.1.0:
+    resolution: {integrity: sha512-OV7JjAgOTfAFJmHZLvpSTb4qi0nIILDV1gWPYDnDJUTNFM5aGlRAhk4QcT8i7TuAleeEV5Fdkqn3t4mS+Q11fg==}
+    engines: {node: '>=6'}
+    dependencies:
+      builtin-modules: 3.2.0
     dev: true
 
   /is-callable/1.2.4:
