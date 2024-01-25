@@ -6,7 +6,7 @@ specifiers:
   '@types/chai': ^4.2.12
   chai: 4.3.4
   concurrently: 8.2.2
-  husky: 9.0.4
+  husky: 9.0.5
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0
@@ -27,7 +27,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 15.2.3_rollup@2.79.1
   chai: 4.3.4
   concurrently: 8.2.2
-  husky: 9.0.4
+  husky: 9.0.5
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0_karma@6.4.2
@@ -1737,8 +1737,8 @@ packages:
     engines: {node: '>=16.17.0'}
     dev: true
 
-  /husky/9.0.4:
-    resolution: {integrity: sha512-V3C/ksKcegckemdA20SxPC8x5OE2kVmiICCtChUCmaIKKF7mriBZIQd/7+cfyWkilI1OE1P8XlpMdOQE+IIcQA==}
+  /husky/9.0.5:
+    resolution: {integrity: sha512-/EX48XLor4FczjgdJjwK4qMETrJxJqF4rkgo+NUeK8b2F4TV6s5QxAuG2JZfxm4b9WnrgBGS7bA/JK+H5CKg+A==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
