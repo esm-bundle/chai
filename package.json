@@ -37,7 +37,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.7",
     "@rollup/plugin-node-resolve": "15.2.3",
-    "chai": "4.3.4",
+    "chai": "5.1.0",
     "concurrently": "8.2.2",
     "husky": "9.0.10",
     "karma": "6.4.2",
