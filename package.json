@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/esm-bundle/chai#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-commonjs": "25.0.8",
     "@rollup/plugin-node-resolve": "15.2.3",
     "chai": "4.3.4",
     "concurrently": "8.2.2",
