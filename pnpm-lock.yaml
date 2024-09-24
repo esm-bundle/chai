@@ -20,7 +20,7 @@ specifiers:
   rollup-plugin-terser: 7.0.2
 
 dependencies:
-  '@types/chai': 4.3.19
+  '@types/chai': 4.3.20
 
 devDependencies:
   '@rollup/plugin-commonjs': 28.0.0_rollup@2.79.1
@@ -310,8 +310,8 @@ packages:
     resolution: {integrity: sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==}
     dev: true
 
-  /@types/chai/4.3.19:
-    resolution: {integrity: sha512-2hHHvQBVE2FiSK4eN0Br6snX9MtolHaTo/batnLjlGRhoQzlCL61iVpxoqO7SfFyOw+P/pwv+0zNHzKoGWz9Cw==}
+  /@types/chai/4.3.20:
+    resolution: {integrity: sha512-/pC9HAB5I/xMlc5FP77qjCnI16ChlJfW0tGa0IUcFn38VJrTV6DeZ60NU5KZBtaOZqjdpwTWohz5HU1RrhiYxQ==}
     dev: false
 
   /@types/cookie/0.4.1:
